@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Edu+SA+Beginner:wght@500&family=Inter:wght@300;400&family=Lumanosimo&family=Poppins:wght@400;600;700&family=Quicksand:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    background-color: rgba(108, 212, 5, 0.849);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 69rem;
+}
+.container{
+     background-color: #335c67;
+}
+.banner {
+    width: 100%;
+    height: 100px;
+    background-color: #335c67;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.logo {
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+#png {
+    width: 120px;
+    height: 100px;
+    margin-top: -40px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-right: 6rem;
+
+}
+
+
+.nav-link {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.fa-icon {
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.low-color {
+    background-color: rgb(161, 238, 8)
+}
+
+/* Style for the container div */
+.container {
+    background-image: url('background\ image.png');
+    /* Replace 'your-image.jpg' with the path to your background image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    /* Adjust the height as needed */
+    position: relative;
+}
+
+/* Style for the dark background section */
+.text-section {
+    background-color: rgba(0, 0, 0, 0.7);
+    /* Dark background color with some transparency */
+
+    color: white;
+    padding: 20px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    min-width: 500px;
+}
+
+.heading {
+    border-bottom: 10px solid white;
+    border-top: 10px solid white;
+    padding: 1rem;
+
+
+}
+
+/* Additional styling for the heading and text */
+h1 {
+    font-size: 3rem;
+    font-family: 'Inter', sans-serif;
+}
+
+P {
+    color: yellow;
+    font-size: 26px;
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 4rem;
+    text-align: center;
+}
+
+button {
+    padding: 1rem;
+    background-color: yellow;
+    border-radius: 3px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.yellow-button {
+    background-color: yellow;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.yellow-button i {
+    margin-left: 10px;
+}
+
+.yellow-button:hover {
+    background-color: #FFD700;
+    /* Change color on hover */
+}
+
+.fa-chevron-right::before {
+    content: "\f054";
+    font-family: FontAwesome;
+}
+
+h6 {
+    text-decoration: underline;
+    font-size: smaller;
+    margin-top: 1rem;
+}
+
+.LISTING {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    line-height: 1rem;
+}
+
+ul li {
+    list-style-type: square;
+    margin: 10px;
+}
+
+ul::marker {
+    color: #FFD700;
+    font-size: 40px;
+}
+
+.ad-sec{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: rgb(142, 209, 9);
+}
+
+.geele{
+    font-size: 16px;
+    color: #000000;
+}
+
+.geele span{
+    font-weight: bold;
+}
+.fa-goog{
+    width: 150px;
+    height:auto;
+    margin-left: 1rem;
+}
+
+.logo2{
+    width: 150px;
+    height: auto;
+    margin-left: 1rem;
+}
+
+.ad-sect2{
+   background-color:rgb(118, 94, 94);
+}
+
+.imogo{
+    display: flex;
+        justify-content:space-between;
+}
+
+.mojo{
+    width: 100px;
+    height: auto;
+}
+
+.adver{
+    width: 300px;
+    height: auto;
+    margin-top: 13%;
+   
+}
+
+.ren{
+    /* margin-top: 20px; */
+    font-size: 20px;
+    color: yellow;
+     margin-right:60%;
+     margin-left: 3rem;
+}
+.Third{
+    margin: 0;
+    padding: 0;
+    display: flex;
+     width: 100%;
+    flex-direction: row;
+    height: 40vh;
+    overflow-y: hidden;
+    /* margin-left: 1rem; */
+}
+.background-container {
+    position: relative;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    min-width: 30%; 
+    padding: 20px;
+}
+
+.background-1 {
+    background-image: url('./web\ hosting.jpg');
+}
+
+.background-2 {
+    background-image: url('./support\ girl\ call.jpg');
+}
+
+.background-3 {
+    background-image: url('./typing.jpg');
+    
+}
+
+
+.text-container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px; 
+}
+
+p {
+    font-size: 14px; 
+}
+
+.footer-prap{
+      color:white;
+      font-size: 12px;
+        
+}
+.btn{
+    background-color: grey;
+  color: yellow;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+.btn:hover {
+    background-color: yellow;
+    color: white;
+  }
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-left: 1px solid #999;
+    padding: 10px;
+    background-color: #333; /* Deep gray background color */
+    color: #fff; /* Text color */
+}
+
+/* Style for the promotional info */
+.promotional-info {
+    flex: 1;
+}
+
+/* Style for the quick links */
+.quick-links {
+    display: flex;
+}
+
+/* Style for each quick link */
+.quick-link {
+    margin-right: 10px; /* Add right margin for spacing */
+    padding-left: 5px; /* Add left padding for small left border */
+    border-left: 1px solid #999; /* Small left border */
+}
+
+/* Remove the margin from the last quick link to prevent extra space */
+.quick-link:last-child {
+    margin-right: 0;
+}
